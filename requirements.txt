@@ -1,0 +1,10 @@
+# VULNERABILITY: Pinned to old versions with known CVEs.
+# Aikido SCA scanning will detect these outdated dependencies.
+fastapi==0.95.0
+uvicorn==0.20.0
+sqlalchemy==1.4.41
+psycopg2-binary==2.9.9
+python-jose==3.3.0
+python-dotenv==0.21.0
+pydantic==1.10.7
+httpx==0.23.0
